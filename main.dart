@@ -11,7 +11,7 @@ void main() {
   bool continueProgram = true;
 
   // Initialize sample data
-  var customer = Customer('C001', 'John Doe', '123-456-7890');
+  var customer = Customer('C001', 'kannika', '123-456-7890');
   Menu.menuItems = [
     Menu(201, 'Sandwich', 5, 200, ProductType.food),
     Menu(204, 'Dessert', 2, 150, ProductType.desserts),
